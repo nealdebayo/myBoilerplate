@@ -1,0 +1,7 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": "vei/back-end",
+  "parser": "babel-eslint"
+}

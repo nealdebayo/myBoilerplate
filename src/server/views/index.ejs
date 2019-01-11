@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<%- helmet.title %>
+<script>
+window.APP_LOCALS = <%- JSON.stringify(state).replace(/</g, '\\x3c') %>
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="root"><%- body %></div>
+</body>
+</html>

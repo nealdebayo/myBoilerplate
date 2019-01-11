@@ -1,0 +1,4 @@
+{
+  "extends": "vei/front-end",
+  "parser": "babel-eslint"
+}
